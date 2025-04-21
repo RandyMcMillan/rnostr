@@ -3,11 +3,11 @@ name: Build
 on:
   push:
     branches: 
-      - main
+      - m**
       - dev
   pull_request:
     branches: 
-      - main
+      - m**
       - dev
 
 env:
